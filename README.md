@@ -9,22 +9,22 @@ This pipeline allows to search for male segregation distortions in F1 hybrids. I
 For each crossing, the data should be organized like this:
 
 * data
-  * name_cross
-    * P01
-    R1.fastq.gz
-    R2.fastq.gz
+  * name_cross  
+    * P01  
+    R1.fastq.gz   
+    R2.fastq.gz   
 
-    * P02
-    R1.fastq.gz
-    R2.fastq.gz
+    * P02  
+    R1.fastq.gz   
+    R2.fastq.gz   
 
-    * L
-    R1.fastq.gz
-    R2.fastq.gz
+    * L  
+    R1.fastq.gz   
+    R2.fastq.gz   
 
-    * P
-    R1.fastq.gz
-    R2.fastq.gz
+    * P   
+    R1.fastq.gz  
+    R2.fastq.gz   
 
 With P01 for parent 1 data, P02 for parent 2 data, L for individual F1 somatic data, and P for individual F1 germline data.
 
