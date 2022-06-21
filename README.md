@@ -44,19 +44,38 @@ A "genealogies_table_TRUE.txt" file is needed in the form:
 
 ## Running
 
-
+The scripts were coded for use with SLURM. The directory paths in each script must be modified, before using them, according to your folder hierarchy.  
+The versions of the tools used are noted in the scripts.
 
 ### Script_1.sh
 
+This first script cleans the raw data, aligns it to the reference genome and puts the alignment file in the right format to be able to perform variant analysis.  
+
+To run: 
+'''
+sbatch script_1.sh name_cross
+'''
 
 ### Script_2.sh
 
 
+To run:	
+'''
+sbatch script_2.sh name_cross
+'''
+
 ### Script_3.sh
 
 
+To run:	
+'''
+sbatch script_3.sh name_cross
+'''
+
 ### Script_4.sh
 
-----------------
 
-## Test
+To run:	
+'''
+sbatch script_4.sh name_cross
+'''
