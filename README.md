@@ -51,31 +51,34 @@ The versions of the tools used are noted in the scripts.
 
 This first script cleans the raw data, aligns it to the reference genome and puts the alignment file in the right format to be able to perform variant analysis.  
 
-To run: 
-'''
+To run:  
+```
 sbatch script_1.sh name_cross
-'''
+```
 
 ### Script_2.sh
 
+This script allows you to call variants to genotype single nucleotide polymorphisms and put the file in an easy-to-analyze format.
 
-To run:	
-'''
+To run:    	
+```
 sbatch script_2.sh name_cross
-'''
+```
 
 ### Script_3.sh
 
+This script makes it possible to filter the table and to create files for the use of MAP_SD and the creation of graphs.
 
-To run:	
-'''
+To run:     	
+```
 sbatch script_3.sh name_cross
-'''
+```
 
 ### Script_4.sh
 
+This script allows the creation of graphs before the use of MAP_SD and after the results of MAP_SD.
 
-To run:	
-'''
+To run:	    
+```
 sbatch script_4.sh name_cross
-'''
+```
