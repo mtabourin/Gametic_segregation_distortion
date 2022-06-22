@@ -5,3 +5,6 @@ results/table/X03.table.bz2 filter=lfs diff=lfs merge=lfs -text
 results/table/X04.table.bz2 filter=lfs diff=lfs merge=lfs -text
 results/table/X05.table.bz2 filter=lfs diff=lfs merge=lfs -text
 results/table/X06.table.bz2 filter=lfs diff=lfs merge=lfs -text
+results/table/X07.table.bz2 filter=lfs diff=lfs merge=lfs -text
+results/table/X08.table.bz2 filter=lfs diff=lfs merge=lfs -text
+results/table/X09.table.bz2 filter=lfs diff=lfs merge=lfs -text
