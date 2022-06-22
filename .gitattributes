@@ -11,3 +11,6 @@ results/table/X09.table.bz2 filter=lfs diff=lfs merge=lfs -text
 results/table/X11.table.bz2 filter=lfs diff=lfs merge=lfs -text
 results/table/X12.table.bz2 filter=lfs diff=lfs merge=lfs -text
 results/table/X13.table.bz2 filter=lfs diff=lfs merge=lfs -text
+results/table/X14.table.bz2 filter=lfs diff=lfs merge=lfs -text
+results/table/X15.table.bz2 filter=lfs diff=lfs merge=lfs -text
+results/table/X16.table.bz2 filter=lfs diff=lfs merge=lfs -text
