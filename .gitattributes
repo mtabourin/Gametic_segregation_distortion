@@ -1,3 +1,4 @@
 results/table/X10.table.bz2 filter=lfs diff=lfs merge=lfs -text
 results/table/X01.table.bz2 filter=lfs diff=lfs merge=lfs -text
 results/table/X02.table.bz2 filter=lfs diff=lfs merge=lfs -text
+results/table/X03.table.bz2 filter=lfs diff=lfs merge=lfs -text
