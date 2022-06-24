@@ -1,10 +1,13 @@
-# Search for male gametic segregation in F1 hybrids
+# Search for male gametic segregation in F1 hybrids within the genus *Arabidopsis*
 
 This pipeline allows to search for male segregation distortions in F1 hybrids. It works in 4 scripts.
 
 ----------------
 
 ## Data
+
+The data used are available on the NCBI in the BioProject ID PRJNA750331.   
+We used the reference genome of *Arabidopsis lyrata*[1].  
 
 For each crossing, the data should be organized like this:
 
@@ -38,7 +41,6 @@ A "genealogies_table_TRUE.txt" file is needed in the form:
 | X01        | P      | X01_p           | PPais09xWall024-2                                |
 | X02        | P01    | Wall10          | D654_EKDL200000637-1a-AK6524-AK6699_H2KGYDSXY_L4 |
 | ...        | ...    | ...             | ...                                              |
-
 
 ----------------
 
@@ -82,3 +84,17 @@ To run:
 ```
 sbatch script_4.sh name_cross
 ```
+
+----------------
+
+## Results
+
+In the table folder of the results folder, the filtered and unfiltered tables are available for our crosses.  
+
+----------------
+
+## References
+
+[1] C. Roux, V. Castric, M. Pauwels, S. I. Wright, P. Saumitou-Laprade, et X. Vekemans, « Does Speciation
+between Arabidopsis halleri and Arabidopsis lyrata Coincide with Major Changes in a Molecular Target of
+Adaptation? », PLOS ONE, vol. 6, n o 11, p. e26872, nov. 2011, doi: 10.1371/journal.pone.0026872.
