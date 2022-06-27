@@ -107,7 +107,7 @@ done
 
 ### Create a database for the cross, with the gVCF, if it does not exist and add the gVCF if the database for the cross already exists
 
-## vérifier si reférence est au format bed
+## Index the reference file
 if [ ! -f "$DIRREF"/"$REF".bed ]
 then 
 	echo Index the reference file

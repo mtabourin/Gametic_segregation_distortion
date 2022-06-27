@@ -64,7 +64,6 @@ def genealogy_table_to_dict(input_file):
 	return major_dic
 
 
-
 # Setup
 data_dict = genealogy_table_to_dict(data_file)
 
